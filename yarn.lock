@@ -2315,9 +2315,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jupyter/builder@npm:^0.0.6":
-  version: 0.0.6
-  resolution: "@jupyter/builder@npm:0.0.6"
+"@jupyter/builder@npm:^0.0.8":
+  version: 0.0.8
+  resolution: "@jupyter/builder@npm:0.0.8"
   dependencies:
     "@jupyterlab/core-meta": 4.6.0-alpha.4
     "@rspack/core": ^1.7.7
@@ -2336,18 +2336,18 @@ __metadata:
     supports-color: ^7.2.0
     webpack-merge: ^5.8.0
     worker-loader: ^3.0.2
-  checksum: b706a10dcc33e4228c7336471c73e73ecb45afbd8fc21ac5d59dd95fd31a39ea6ba1ee5846f64140ee9cb2965c0422d5b487246d1c961810b8686df740d8542d
+  checksum: 5f80322e4eecd4c643e73996b9f383bc9bc60cc5d52d5909c80e658bfb7c9e8727a219c4330994cfc2df5d5fd900d89e28e2b29bd4d5078a32c142d22d4d9e9f
   languageName: node
   linkType: hard
 
-"@jupyter/eslint-plugin@npm:0.0.3":
-  version: 0.0.3
-  resolution: "@jupyter/eslint-plugin@npm:0.0.3"
+"@jupyter/eslint-plugin@npm:0.0.5":
+  version: 0.0.5
+  resolution: "@jupyter/eslint-plugin@npm:0.0.5"
   dependencies:
     "@typescript-eslint/utils": ^8.54.0
   peerDependencies:
     eslint: ">=9.0.0"
-  checksum: dcb427d1b5127fd59e3d8c72662fd4b0ba226f16fac163839bbe7739d33e93beda2c4b8d2d2040552c2512a276e27ac119ce24467818c923f42da6081da9e37b
+  checksum: 8cd31224e09caf9046eee16784e42f1428bd3a3e67740821e463139cf85cd68ead731fa529af68cde06030fbb65e572aba71f281bb9c1b9cc59393e9bfba0ae7
   languageName: node
   linkType: hard
 
@@ -2397,7 +2397,6 @@ __metadata:
     "@jupyterlab/property-inspector": ^4.6.0-alpha.4
     "@jupyterlab/settingregistry": ^4.6.0-alpha.4
     "@jupyterlab/statedb": ^4.6.0-alpha.4
-    "@jupyterlab/statusbar": ^4.6.0-alpha.4
     "@jupyterlab/translation": ^4.6.0-alpha.4
     "@jupyterlab/ui-components": ^4.6.0-alpha.4
     "@lumino/algorithm": ^2.0.4
@@ -2415,7 +2414,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jupyterlab/application-top@workspace:dev_mode"
   dependencies:
-    "@jupyter/builder": ^0.0.6
+    "@jupyter/builder": ^0.0.8
     "@jupyterlab/application": ~4.6.0-alpha.4
     "@jupyterlab/application-extension": ~4.6.0-alpha.4
     "@jupyterlab/apputils-extension": ~4.6.0-alpha.4
@@ -3300,11 +3299,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jupyterlab/example-app@workspace:examples/app"
   dependencies:
-    "@jupyter/builder": ^0.0.6
+    "@jupyter/builder": ^0.0.8
     "@jupyterlab/application": ^4.6.0-alpha.4
     "@jupyterlab/application-extension": ^4.6.0-alpha.4
     "@jupyterlab/apputils-extension": ^4.6.0-alpha.4
-    "@jupyterlab/builder": ^4.6.0-alpha.4
     "@jupyterlab/celltags-extension": ^4.6.0-alpha.4
     "@jupyterlab/codemirror-extension": ^4.6.0-alpha.4
     "@jupyterlab/completer-extension": ^4.6.0-alpha.4
@@ -3404,11 +3402,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jupyterlab/example-federated-core@workspace:examples/federated/core_package"
   dependencies:
-    "@jupyter/builder": ^0.0.6
+    "@jupyter/builder": ^0.0.8
     "@jupyterlab/application": ^4.6.0-alpha.4
     "@jupyterlab/application-extension": ^4.6.0-alpha.4
     "@jupyterlab/apputils-extension": ^4.6.0-alpha.4
-    "@jupyterlab/builder": ^4.6.0-alpha.4
     "@jupyterlab/celltags-extension": ^4.6.0-alpha.4
     "@jupyterlab/codemirror-extension": ^4.6.0-alpha.4
     "@jupyterlab/completer-extension": ^4.6.0-alpha.4
@@ -3462,9 +3459,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jupyterlab/example-federated-md@workspace:examples/federated/md_package"
   dependencies:
-    "@jupyter/builder": ^0.0.6
+    "@jupyter/builder": ^0.0.8
     "@jupyterlab/application": ^4.6.0-alpha.4
-    "@jupyterlab/builder": ^4.6.0-alpha.4
     "@jupyterlab/example-federated-middle": ^3.5.0-alpha.4
     "@jupyterlab/markdownviewer-extension": ^4.6.0-alpha.4
     "@lumino/widgets": ^2.7.5
@@ -3476,8 +3472,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jupyterlab/example-federated-middle@workspace:examples/federated/middle_package"
   dependencies:
-    "@jupyter/builder": ^0.0.6
-    "@jupyterlab/builder": ^4.6.0-alpha.4
+    "@jupyter/builder": ^0.0.8
     "@lumino/coreutils": ^2.2.2
     rimraf: ~5.0.5
   languageName: unknown
@@ -3793,10 +3788,9 @@ __metadata:
   resolution: "@jupyterlab/galata-extension@workspace:galata/extension"
   dependencies:
     "@fontsource-variable/noto-sans-sc": ^5.2.10
-    "@jupyter/builder": ^0.0.6
+    "@jupyter/builder": ^0.0.8
     "@jupyterlab/application": ^4.6.0-alpha.4
     "@jupyterlab/apputils": ^4.7.0-alpha.4
-    "@jupyterlab/builder": ^4.6.0-alpha.4
     "@jupyterlab/cells": ^4.6.0-alpha.4
     "@jupyterlab/debugger": ^4.6.0-alpha.4
     "@jupyterlab/docmanager": ^4.6.0-alpha.4
@@ -4463,8 +4457,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jupyterlab/mock-consumer@workspace:jupyterlab/tests/mock_packages/interop/consumer"
   dependencies:
-    "@jupyter/builder": ^0.0.6
-    "@jupyterlab/builder": ^4.6.0-alpha.4
+    "@jupyter/builder": ^0.0.8
     "@jupyterlab/mock-token": ^4.6.0-alpha.4
   languageName: unknown
   linkType: soft
@@ -4473,8 +4466,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jupyterlab/mock-extension@workspace:jupyterlab/tests/mock_packages/extension"
   dependencies:
-    "@jupyter/builder": ^0.0.6
-    "@jupyterlab/builder": ^4.6.0-alpha.4
+    "@jupyter/builder": ^0.0.8
     "@jupyterlab/launcher": ^4.6.0-alpha.4
   languageName: unknown
   linkType: soft
@@ -4483,8 +4475,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jupyterlab/mock-provider@workspace:jupyterlab/tests/mock_packages/interop/provider"
   dependencies:
-    "@jupyter/builder": ^0.0.6
-    "@jupyterlab/builder": ^4.6.0-alpha.4
+    "@jupyter/builder": ^0.0.8
     "@jupyterlab/mock-token": ^4.6.0-alpha.4
   languageName: unknown
   linkType: soft
@@ -4493,8 +4484,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jupyterlab/mock-service-manager-extension@workspace:jupyterlab/tests/mock_packages/service-manager-extension"
   dependencies:
-    "@jupyter/builder": ^0.0.6
-    "@jupyterlab/builder": ^4.6.0-alpha.4
+    "@jupyter/builder": ^0.0.8
     "@jupyterlab/services": ^7.6.0-alpha.4
   languageName: unknown
   linkType: soft
@@ -4807,7 +4797,7 @@ __metadata:
   resolution: "@jupyterlab/repo-top@workspace:."
   dependencies:
     "@eslint/js": ^10.0.1
-    "@jupyter/eslint-plugin": 0.0.3
+    "@jupyter/eslint-plugin": 0.0.5
     eslint: ^9.26.0
     eslint-config-prettier: ^10.0.0
     eslint-plugin-jest: ^28.0.0
@@ -4820,6 +4810,7 @@ __metadata:
     stylelint-config-recommended: ^13.0.0
     stylelint-config-standard: ^34.0.0
     stylelint-csstree-validator: ^3.0.0
+    stylelint-declaration-strict-value: ^1.11.1
     stylelint-prettier: ^4.0.0
     typedoc: ~0.27.4
     typedoc-plugin-mdn-links: ^4.0.4
@@ -5100,6 +5091,7 @@ __metadata:
     "@jupyterlab/running": ^4.6.0-alpha.4
     "@jupyterlab/services": ^7.6.0-alpha.4
     "@jupyterlab/settingregistry": ^4.6.0-alpha.4
+    "@jupyterlab/statusbar": ^4.6.0-alpha.4
     "@jupyterlab/terminal": ^4.6.0-alpha.4
     "@jupyterlab/translation": ^4.6.0-alpha.4
     "@jupyterlab/ui-components": ^4.6.0-alpha.4
@@ -11784,14 +11776,14 @@ __metadata:
   linkType: hard
 
 "dompurify@npm:^3.3.1":
-  version: 3.3.3
-  resolution: "dompurify@npm:3.3.3"
+  version: 3.4.0
+  resolution: "dompurify@npm:3.4.0"
   dependencies:
     "@types/trusted-types": ^2.0.7
   dependenciesMeta:
     "@types/trusted-types":
       optional: true
-  checksum: 2ba5b40129259836f1e6c98e99d16608d34c7f4ad6ba457ac8c932f0e2c8e0e7c27561d25fcabf97e695eec57fd5eef1c065b324a542e5125631d4f768af2736
+  checksum: 8c4286d3d379c6133ff2951d73d946974ef079f5d651d66cf90c1a6e57d8d2d304e7bc18280d27c38835200bbe03877fd93fb22f9f1fb9e086d68ffcd2d5dd16
   languageName: node
   linkType: hard
 
@@ -13052,12 +13044,12 @@ __metadata:
   linkType: hard
 
 "follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.15.6":
-  version: 1.15.11
-  resolution: "follow-redirects@npm:1.15.11"
+  version: 1.16.0
+  resolution: "follow-redirects@npm:1.16.0"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: 20bf55e9504f59e6cc3743ba27edb2ebf41edea1baab34799408f2c050f73f0c612728db21c691276296d2795ea8a812dc532a98e8793619fcab91abe06d017f
+  checksum: e90dce4607b1f6b8b9883287f912585573c19088209ad82341d550a795b4ba514522b73b1b340cf618279df27975cd46504d09149be60291ba6767384c1fd8f8
   languageName: node
   linkType: hard
 
@@ -16237,10 +16229,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash-es@npm:^4.17.23":
-  version: 4.17.23
-  resolution: "lodash-es@npm:4.17.23"
-  checksum: b1bd1d141bbde8ffc72978e34b364065675806b0ca42ab99477d247fb2ae795faeed81db9283bf18ae1f096c2b6611ec0589e0503fa9724bf82e3dce947bad69
+"lodash-es@npm:^4.18.1":
+  version: 4.18.1
+  resolution: "lodash-es@npm:4.18.1"
+  checksum: 578993943cfa779e784aeed96766484ec6ab15cd855e52c79631de6371ac49fadd6dd9f4719f8d1223ab2bcb0dfbece484f548191dd34d3dd8b39e1af712a343
   languageName: node
   linkType: hard
 
@@ -18606,13 +18598,13 @@ __metadata:
   linkType: hard
 
 "postcss@npm:^8.3.11, postcss@npm:^8.4.24, postcss@npm:^8.4.33":
-  version: 8.5.6
-  resolution: "postcss@npm:8.5.6"
+  version: 8.5.12
+  resolution: "postcss@npm:8.5.12"
   dependencies:
     nanoid: ^3.3.11
     picocolors: ^1.1.1
     source-map-js: ^1.2.1
-  checksum: 20f3b5d673ffeec2b28d65436756d31ee33f65b0a8bedb3d32f556fbd5973be38c3a7fb5b959a5236c60a5db7b91b0a6b14ffaac0d717dce1b903b964ee1c1bb
+  checksum: e11818908d9f1693438bd7c6e3af99431552f5c9b3f400ebe76af3f25bd1b1efb26bc4c13533f3dcff45540a66ad4e84c62e06491f88003bbfa4ef35b6175f55
   languageName: node
   linkType: hard
 
@@ -20768,6 +20760,15 @@ __metadata:
   peerDependencies:
     stylelint: ">=7.0.0 <16.0.0"
   checksum: e518c8c17714022946b7637c23a6816fd2ccdd6052a19c5a138b3f7ce9b913ead9c612ac4401e102f14800a19967dbfd4b588b44cbf3f3c6a5984bef7bda4017
+  languageName: node
+  linkType: hard
+
+"stylelint-declaration-strict-value@npm:^1.11.1":
+  version: 1.11.1
+  resolution: "stylelint-declaration-strict-value@npm:1.11.1"
+  peerDependencies:
+    stylelint: ">=16 <=17"
+  checksum: 7456304bf32a1172712604dfeabd8fdb4cee51c09152315f62913359b9ee601825f291597fc91b34fc57a6731fbdf0e6647667a7f3e3f245273efa378268ac65
   languageName: node
   linkType: hard
 
